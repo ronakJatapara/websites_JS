@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#p1:hover{
+    color: #FC2E7D;
+    cursor: pointer;
+}
+.icon1:hover,.icon2:hover,.icon3:hover,.icon4:hover{
+    color: #FC2E7D;
+    cursor: pointer;
+}
+
+#p2:hover{
+    color: #FC2E7D;
+    cursor: pointer;
+}
+#row1{
+    width: 300px;
+   
+    /* border: 1px solid black; */
+    margin-right: 300px;
+}
+#btn1{
+    background-color: #FC2E7D;
+    color: rgb(0, 0, 0);
+}
+#p5{
+    text-decoration: none;
+}
+#i1{
+    /* border: 1px solid black; */
+   position: absolute;
+   right: 200px;
+   top: 10px;
+   font-size: 20px;
+   color: black;
+}
+#section3 img{
+    border-radius: 10px;
+    /* border: 1px solid black; */
+}
+
+#p4{
+  color: gray;
+}
+
+#formdata{
+    height: 600px;
+    width: 320px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 39%;
+}
+
+#p6{
+    text-align: center;
+
+}
+#p7{
+    color: #FC2E7D;
+}
+
+#name{
+    margin-top: 50px;
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 10%;
+}
+#pnumber{
+    margin-top: 1px;
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 10%; 
+}
+#email{
+    margin-top: 1px;
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 10%; 
+}
+#btn3{
+    width: 80%;
+    background-color: #FC2E7D;
+    color: #ffffff;
+    height: 40px;
+    margin-left: 10%;
+    border: none;
+    margin-top: 40px;
+}
+#p9{
+    margin-left: 130px;
+    font-size: 12px;
+    color: red;
+    display: none;
+    /* opacity: 0; */
+    margin-top: 20px;
+}
+#p10{
+    margin-left: 120px;
+    font-size: 12px;
+    color: red;
+    display: none;
+   
+    margin-top: 20px;
+}
+#p11{
+    margin-left: 130px;
+    font-size: 12px;
+    color: red;
+    display: none;
+   
+    margin-top: 20px;
+}
+#box1{
+    height: 260px;
+    width: 260px;
+    /* border: 1px solid black; */
+    /* border: 1px solid black; */
+}
+.img{
+    height: 240px;
+    width: 100%;
+    border: 1px solid  black;
+    border-radius: 10px;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.box2{
+    height: 200px;
+    width: 100%;
+    background-color: #09485F;
+}
+#aside{
+    height: 700px;
+    width: 25%;
+    border: 1px solid black;
+    
+}

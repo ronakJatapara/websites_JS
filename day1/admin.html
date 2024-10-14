@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Admin Panel with Dark Mode</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Smooth transition for theme switch */
+    body {
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .dark-mode .card {
+      background-color: #1f2937; /* Dark gray for dark mode */
+      color: #e5e7eb; /* Light text in dark mode */
+    }
+    .card {
+      transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Sidebar -->
+  <div class="flex min-h-screen">
+    <aside class="w-64 bg-gray-800 text-gray-300 p-6">
+      <h4 class="text-xl font-semibold text-white mb-6">Admin Panel</h4>
+      <nav>
+        <a href="#" class="block py-2 px-4 rounded hover:bg-gray-700">Dashboard</a>
+        <a href="#" class="block py-2 px-4 rounded hover:bg-gray-700">Users</a>
+        <a href="#" class="block py-2 px-4 rounded hover:bg-gray-700">Reports</a>
+        <a href="#" class="block py-2 px-4 rounded hover:bg-gray-700">Settings</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="flex-1">
+      <header class="flex justify-between items-center bg-white p-4 shadow-md">
+        <h1 class="text-2xl font-bold">Admin Dashboard</h1>
+        <div class="flex items-center">
+          <label for="darkModeSwitch" class="mr-3 text-sm text-gray-600">Dark Mode</label>
+          <input type="checkbox" id="darkModeSwitch" class="form-check-input h-5 w-5 cursor-pointer">
+          <button class="ml-6 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Profile</button>
+          <button class="ml-3 bg-red-600 text-white py-2 px-4 rounded hover:bg-red-700">Logout</button>
+        </div>
+      </header>
+
+      <!-- Dashboard Overview -->
+      <main class="p-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Card 1 -->
+          <div class="card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <h5 class="text-xl font-semibold mb-2">Users</h5>
+            <p class="text-gray-600">Total: 1,234</p>
+          </div>
+          <!-- Card 2 -->
+          <div class="card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <h5 class="text-xl font-semibold mb-2">Sales</h5>
+            <p class="text-gray-600">$12,345</p>
+          </div>
+          <!-- Card 3 -->
+          <div class="card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <h5 class="text-xl font-semibold mb-2">Orders</h5>
+            <p class="text-gray-600">123</p>
+          </div>
+          <!-- Card 4 -->
+          <div class="card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <h5 class="text-xl font-semibold mb-2">Messages</h5>
+            <p class="text-gray-600">45 New</p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- JavaScript for Dark Mode Toggle -->
+  <script>
+    const toggleSwitch = document.getElementById('darkModeSwitch');
+    const body = document.body;
+
+    toggleSwitch.addEventListener('change', () => {
+      body.classList.toggle('dark-mode');
+      if (body.classList.contains('dark-mode')) {
+        body.classList.add('bg-gray-900', 'text-gray-200');
+        body.classList.remove('bg-gray-100', 'text-gray-900');
+      } else {
+        body.classList.add('bg-gray-100', 'text-gray-900');
+        body.classList.remove('bg-gray-900', 'text-gray-200');
+      }
+    });
+  </script>
+
+</body>
+</html>
