@@ -49,56 +49,79 @@
       "title": "Tom Ford Black Orchid",
       "price": 3200,
       "rating": "https://static.vecteezy.com/system/resources/thumbnails/007/498/654/small/five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-illustration-vector.jpg",
-      "id": "2df4"
+      "id": "1"
     },
     {
       "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/a/2aa71cbCETAP00000003_1.jpg",
       "title": "Cetaphil Brightening Day Cream with SPF 15 Niacinamide reduc...",
       "price": 1115,
       "rating": "https://static.vecteezy.com/system/resources/thumbnails/007/498/654/small/five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-illustration-vector.jpg",
-      "id": "2433"
+      "id": "2"
     },
     {
       "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/0/a065236888066075145_1.jpg",
       "title": "Tom Ford Ombre Leather Eau de Parfum For Him",
       "price": 15400,
       "rating": "https://static.vecteezy.com/system/resources/thumbnails/007/498/654/small/five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-illustration-vector.jpg",
-      "id": "73ca"
+      "id": "3"
     },
     {
       "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/d/fdbc2ce3360372058861_1.jpg",
       "title": "Giorgio Armani Acqua Di Gio Eau De Toilette For Him",
       "price": 4720,
       "rating": "https://static.vecteezy.com/system/resources/thumbnails/007/498/654/small/five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-illustration-vector.jpg",
-      "id": "04f7"
+      "id": "4"
     },
     {
       "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/b/db992ab783320411953.jpg",
       "title": "BVLGARI Man Glacial Essence Eau De Parfum For Him",
       "price": 8500,
       "rating": "https://static.vecteezy.com/system/resources/thumbnails/007/498/654/small/five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-illustration-vector.jpg",
-      "id": "f145"
+      "id": "5"
     },
     {
       "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/5/355b63a3614272050358_1.jpg",
       "title": "Yves Saint Laurent Y Eau De Parfum For Him ",
       "price": 9900,
       "rating": "https://static.vecteezy.com/system/resources/thumbnails/007/498/654/small/five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-illustration-vector.jpg",
-      "id": "8172"
+      "id": "6"
     },
     {
       "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/f/df9748a46080043009.jpg",
       "title": "Davidoff Cool Water Eau De Toilette For Men",
       "price": 3300,
       "rating": "https://static.vecteezy.com/system/resources/thumbnails/007/498/654/small/five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-illustration-vector.jpg",
-      "id": "0b78"
+      "id": "7"
     },
     {
       "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/b/db992abDIORX00000243.jpg",
       "title": "TDIOR Sauvage Elixir Spray For Him",
       "price": 13600,
       "rating": "https://static.vecteezy.com/system/resources/thumbnails/007/498/654/small/five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-illustration-vector.jpg",
-      "id": "adb7"
+      "id": "8"
+    }
+  ],
+  "cart": [
+    {
+      "id": "4",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/d/fdbc2ce3360372058861_1.jpg",
+      "title": "Giorgio Armani Acqua Di Gio Eau De Toilette For Him",
+      "price": 4720,
+      "rating": "https://static.vecteezy.com/system/resources/thumbnails/007/498/654/small/five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-illustration-vector.jpg"
+    },
+    {
+      "id": "2",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/a/2aa71cbCETAP00000003_1.jpg",
+      "title": "Cetaphil Brightening Day Cream with SPF 15 Niacinamide reduc...",
+      "price": 1115,
+      "rating": "https://static.vecteezy.com/system/resources/thumbnails/007/498/654/small/five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-illustration-vector.jpg"
+    },
+    {
+      "id": "1",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/9/c9794afTOMAC00000006_1.jpg",
+      "title": "Tom Ford Black Orchid",
+      "price": 3200,
+      "rating": "https://static.vecteezy.com/system/resources/thumbnails/007/498/654/small/five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-illustration-vector.jpg"
     }
   ]
 }

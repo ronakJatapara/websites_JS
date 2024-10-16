@@ -1,11 +1,13 @@
 
 
 
+
 fetch(`http://localhost:3000/products`)
 .then((res)=>{
     return res.json();
 })
 .then((res)=>{
+    console.log(res)
    document.querySelector(".box").innerHTML=view(res)
     
 })
@@ -27,7 +29,7 @@ function view(arr)
      <p>${el.price}</p>
  
 </div>
-   <a href="single.html?${el.id}"> <div class="row border" id="box3">
+   <a href="single.html?id=${el.id}"> <div class="row border" id="box3">
   <div class="col-3" id="last1">
   <i class="fa-regular fa-heart"></i>
   </div>
@@ -43,5 +45,5 @@ function view(arr)
 
         </div>
         `
-    }).join(" ")
+    }).join("")
 }

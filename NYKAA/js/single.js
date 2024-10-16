@@ -7,7 +7,8 @@ function render() {
             return res.json();
         })
         .then((res) => {
-            document.querySelector("#row").innerHTML = view(res);
+            console.log(res);
+            document.querySelector(".deepak").innerHTML = view(res);
         })
         .catch((err) => {
             console.log(err);
@@ -17,10 +18,10 @@ function render() {
 function view(arr) {
     return `
         <div class="col-3" id="image1">
-            <img src="${arr.img}" alt="Product Image">
+            <img src="${arr[0].img}" alt="Product Image">
         </div>
         <div class="col-6 position-relative" id="side1">
-            <p id="pp1">${arr.title}
+            <p id="pp1">${arr[0].title}
                 <br><font id="pp2">(10ml)</font></p>
             <font>
                 <img src="img/images-removebg-preview (1).png" alt="Rating" id="imgg1">
@@ -28,7 +29,7 @@ function view(arr) {
                 <font id="pp4">|</font>
                 <font id="pp5">627 ratings & 88 reviews</font>
             </font>
-            <p id="pp6">MRP: 3200</p>
+            <p id="pp6">MRP: <font id="pp9">${arr[0].price}</font></p>
             <font>inclusive of all taxes <i class="fa-solid fa-exclamation"></i></font>
             
             <div class="mt-4">
@@ -38,7 +39,9 @@ function view(arr) {
             </div>
 
             <div class="mt-4">
-                <button id="btnn4">Add To Bag</button>
+               <button id="btnn4" onclick="add(${arr[0].id})">Add To cart</button>
+               <button id="btnn5" onclick="add2(${arr[0].id})">See All Product</button>
+
             </div>
             
             <div class="line mt-3"></div>
@@ -74,34 +77,53 @@ function view(arr) {
     `;
 }
 
+function add(id) {
+    fetch(`http://localhost:3000/products/${id}`)
+        .then((res) => {
+            return res.json();
+        })
+        .then((res) => {
+            console.log(res);
+            // window.location.href = "cart.html"
+            posting(res);  
+        })
+        .catch((err) => {
+            console.log(err);
+        });
+}
+
+function posting(obj) {
+    fetch("http://localhost:3000/cart", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(obj)
+    })
+    .then((res) => {
+        return res.json();
+    })
+    .then((res) => {
+        console.log(res);
+    })
+    .catch((err) => {
+        console.log(err);
+    });
+}
+function add2(id) {
+    fetch(`http://localhost:3000/products/${id}`)
+        .then((res) => {
+            return res.json();
+        })
+        .then((res) => {
+            // console.log(res);
+            window.location.href = "cart.html"
+            // posting(res);  
+        })
+        .catch((err) => {
+            console.log(err);
+        });
+}
+
+
 render();
-
-
-
-
-
-// function render() {
-
-//     let data = new URLSearchParams(window.location.search)
-//     let id = data.get("id")
-//     fetch(`http://localhost:3000/products?id=${id}`)
-//         .then((res) => {
-//             return res.json()
-//         })
-//         .then((res) => {
-//             document.getElementById("box").innerHTML = view(res)
-//         })
-//         .catch((err) => {
-//             console.log(err)
-//         })
-
-
-// }
-
-// function view(arr){
-//     return `<div>
-//           <img src="${arr[0].image}" width="150px">
-//     </div>`
-// }
-
-// render()
