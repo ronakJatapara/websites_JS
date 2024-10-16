@@ -27,13 +27,14 @@ function view(arr)
      <p>${el.price}</p>
  
 </div>
-    <div class="row border" id="box3">
+   <a href="single.html?${el.id}"> <div class="row border" id="box3">
   <div class="col-3" id="last1">
   <i class="fa-regular fa-heart"></i>
   </div>
   <div class="col-9" id="last2">
   Add To Bag
   </div>
+  </a>
 
      </div>
         

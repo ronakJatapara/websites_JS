@@ -146,3 +146,152 @@
     border: 1px solid black;
     
 }
+#image1{
+   height: 660px;
+   width: 25%;
+   border: 1px solid black;
+}
+#side1{
+    height: 660px;
+    width: 50%;
+    border: 1px solid black;
+ }
+ #pp1{
+    font-size: 25px;
+ }
+ #pp2{
+    font-size: 20px;
+ }
+ #imgg1{
+    width: 100px;
+ }
+ #pp3{
+    position: absolute;
+    top: 115px;
+
+ }
+ #pp4{
+    position: absolute;
+    top: 112px;
+    left: 180px;
+    
+ }
+ #pp5{
+    position: absolute;
+    top: 115px;
+    left: 200px;
+    
+ }
+ #pp6{
+    color: gray;
+    font-size: 20px;
+ }
+
+ .fa-exclamation {
+    height: 18px;
+    width: 18px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+     padding-top: 2px;
+ }
+ #btnn1{
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+    transition: .4s;
+ }
+ #btnn1:hover{
+    background-color: #2E3E4C;
+    color: white;
+    border: none;
+ }
+ #btnn2{
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    border-color: gray;
+    color: gray;
+    
+ }
+ #btnn3{
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+    
+ }
+ #btnn3:hover{
+    background-color: #2E3E4C;
+    color: white;
+    border: none;
+ }
+ #btnn4{
+    height: 50px;
+    width: 200px;
+    /* border-radius: 20px; */
+    border: none;
+    background-color: #FC2E7D;
+    margin-left: 20px;
+    color: white;
+    
+ }
+ .line{
+    height: 180px;
+    width: 0px;
+    border: 1px solid  rgb(159, 156, 156);
+    position: absolute;
+    bottom: 90px;
+    left: 280px;
+ }
+#pp7{
+    position: absolute;
+    left: 320px;
+    bottom:200px ;
+}
+#in1{
+    position: absolute;
+    bottom: 160px;
+    left: 320px;
+    height: 35px;
+    width: 300px;
+}
+#boxx1{
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 33%;
+    /* border: 1px solid black; */
+    cursor: pointer;
+}
+#imgg2{
+   height: 30px;
+   margin-top: 5px;
+   
+}
+#boxx2{
+    position: absolute;
+    bottom: 0;
+    left: 33%;
+    height: 40px;
+    width: 33%;
+    /* border: 1px solid black; */
+    cursor: pointer;
+}
+#boxx3{
+    position: absolute;
+    bottom: 0;
+    left: 66%;
+    height: 40px;
+    width: 33%;
+    /* border: 1px solid black; */
+    cursor: pointer;
+}
+#pp8{
+    position: absolute;
+    top: 5px;
+}
+#mainn1{
+    
+    border: 1px solid black;
+}
