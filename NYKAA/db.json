@@ -41,6 +41,42 @@
       "NAME": "ronak jatapara",
       "PHONE": "8799277484",
       "EMAIL": "ronak@gmail.com"
+    },
+    {
+      "id": "f88d",
+      "NAME": "Ronak Jatapara",
+      "PHONE": "08799277484",
+      "EMAIL": "ronakjatapara76@gmail.com"
+    },
+    {
+      "id": "32fb",
+      "NAME": "Ronak jatapara ",
+      "PHONE": "8799277484",
+      "EMAIL": "ronakjatapara76@gmail.com"
+    },
+    {
+      "id": "aff5",
+      "NAME": "Ronak Jatapara",
+      "PHONE": "8799277484",
+      "EMAIL": "ronakjatapara@gmail.com"
+    },
+    {
+      "id": "b901",
+      "NAME": "Ronak jatapara ",
+      "PHONE": "8799277484",
+      "EMAIL": "ronakjatapara@gmail.com"
+    },
+    {
+      "id": "c388",
+      "NAME": "Ronak jatapara ",
+      "PHONE": "8799277484",
+      "EMAIL": "ronakjatapara@gmail.com"
+    },
+    {
+      "id": "1fbf",
+      "NAME": "Ronak jatapara ",
+      "PHONE": "8799277484",
+      "EMAIL": "ronakjatapara@gmail.com"
     }
   ],
   "products": [
@@ -101,27 +137,5 @@
       "id": "8"
     }
   ],
-  "cart": [
-    {
-      "id": "4",
-      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/d/fdbc2ce3360372058861_1.jpg",
-      "title": "Giorgio Armani Acqua Di Gio Eau De Toilette For Him",
-      "price": 4720,
-      "rating": "https://static.vecteezy.com/system/resources/thumbnails/007/498/654/small/five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-illustration-vector.jpg"
-    },
-    {
-      "id": "2",
-      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/a/2aa71cbCETAP00000003_1.jpg",
-      "title": "Cetaphil Brightening Day Cream with SPF 15 Niacinamide reduc...",
-      "price": 1115,
-      "rating": "https://static.vecteezy.com/system/resources/thumbnails/007/498/654/small/five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-illustration-vector.jpg"
-    },
-    {
-      "id": "1",
-      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/9/c9794afTOMAC00000006_1.jpg",
-      "title": "Tom Ford Black Orchid",
-      "price": 3200,
-      "rating": "https://static.vecteezy.com/system/resources/thumbnails/007/498/654/small/five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-illustration-vector.jpg"
-    }
-  ]
+  "cart": []
 }
