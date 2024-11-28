@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#email{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#password{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#btn2{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #FF6F61;
+    color: #ffffff;
+    border: none;
+}

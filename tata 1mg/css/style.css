@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#a1{
+    text-decoration: none;
+    color: #FF6F61;
+    font-size:20px;
+    font-weight:bold;
+}
+#a{
+    text-decoration: none;
+    color: #000000;
+    font-size:20px;
+    font-weight:bold;
+}
+#a:hover #a1{
+    color: black;
+}
+#a:hover{
+    color: #FF6F61;
+}
+#input1{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#btn1{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #FF6F61;
+    color: #ffffff;
+    border: none;
+}
+#a2{
+    color: #FF6F61;
+}
