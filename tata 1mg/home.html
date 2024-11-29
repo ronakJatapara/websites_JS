@@ -5,6 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home page</title>
+    
+   <!-- slider cdn  -->
+
+
+
+  <!-- Slick CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+<!-- jQuery (required by Slick) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Slick JS -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+   <!-- slider cdn  -->
+
+
+
     <link rel="stylesheet" href="css/style.css">
 
     <!-- bootstrap cdn  -->
@@ -21,6 +42,18 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- fontawesome cdn  -->
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+  
+
+       
+
+
+  
+
+
 
 
 </head>
@@ -30,11 +63,10 @@
 
 
         <!-- navbar start  -->
-
         <div class="row">
 
             <div class="col-1">
-                <img src="img/tata_1mg_logo.svg" alt="" class="img-fluid border">
+                <img src="img/tata_1mg_logo.svg" alt="" class="img-fluid">
             </div>
 
             <div class="col-7 d-flex justify-content-evenly align-items-center">
@@ -71,12 +103,12 @@
                                 <p>Get access to your orders, lab tests & doctor consultations</p>
                                 <br><br>
 
-                              <form action="" id="formData">
-                                <input type="text" name="" id="input1" placeholder="enter your email ID" id="">
-                                <br><br>
-                                <button id="btn1">LOGIN</button>
-                                <br><br>
-                              </form>
+                                <form action="" id="formData">
+                                    <input type="text" name="" id="input1" placeholder="enter your email ID" id="">
+                                    <br><br>
+                                    <button id="btn1">LOGIN</button>
+                                    <br><br>
+                                </form>
 
                                 <p class="ps-3">New on 1mg? <a href="signup.html" onclick="" id="a2">Sign Up</a></p>
                             </div>
@@ -111,9 +143,225 @@
 
 
         </div>
+        <hr>
+        <div class="row">
+            <div class="col-3 d-flex justify-content-center  ">
+
+                <div id="Location" class="position-relative d-flex align-items-center">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <font id="City">Botad</font>
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                </div>
+
+            </div>
+            <div class="col-5 position-relative d-flex align-items-center">
+                <input type="text" name="" id="Search" placeholder="Search for Medicines and Health Products"
+                    class="ps-2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="col-1">
+
+            </div>
+            <div class="col-3">
+                <i class="fa-solid fa-bolt"></i>
+                <font>
+                    QUICK BUY!</font>
+
+                <button id="btn2">Quick Order</button>
+            </div>
+        </div>
+        <!-- navbar over  -->
+
+ <hr>
+
+        <!-- first slider start  -->
+        <div class="row d-flex" id="row1">
+            <div class="col-sm-12 col-lg-8" id="Section1">
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <!-- Slick CSS -->
+                <link rel="stylesheet" type="text/css"
+                    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+                <link rel="stylesheet" type="text/css"
+                    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+                <!-- Slick JS -->
+                <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+                <div class="main">
+                    <div class="slider">
+                        <div>
+                            <div class="item bg-red">
+                               <img src="img/slider1.png" alt="" class="img-fluid w-100 h-100">
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="item bg-red">
+                               <img src="img/slider2.jpg" alt="" class="img-fluid w-100 h-100">
+                            </div>
+                        </div>
 
 
-    </div>
+                        <div>
+                            <div class="item bg-red">
+                               <img src="img/slider3.png" alt="" class="img-fluid w-100 h-100">
+                            </div>
+                        </div>
+
+
+
+                        <div>
+                            <div class="item bg-red">
+                               <img src="img/slider4.png" alt="" class="img-fluid w-100 h-100">
+                            </div>
+                        </div>
+
+
+
+                        <div>
+                            <div class="item bg-red">
+                               <img src="img/slider5.png" alt="" class="img-fluid w-100 h-100">
+                            </div>
+                        </div>
+
+
+                        <div>
+                            <div class="item bg-red">
+                               <img src="img/slider6.png" alt="" class="img-fluid w-100 h-100">
+                            </div>
+                        </div>
+
+
+
+                       
+                        
+                          
+                        </div>
+                    </div>
+                    <!-- <div class="slider-nav"></div> -->
+            </div>
+            <div class="col-sm-12 col-lg-4 " id="Section2">
+                <img src="img/section2.png" alt="" class="w-100 h-100">
+            </div>
+
+            <p class="platform">Tata 1mg: India’s Leading Online Pharmacy & Healthcare Platform</p>
+            </div>
+        <!-- first slider over  -->
+
+        <!-- Know more start -->
+         <div class="row d-flex justify-content-center align-items-center" id="row2">
+              
+                <div class="col-12 d-flex justify-content-center ">
+                    <img src="img/know more.png" alt="" class="img-fluid" id="img2">
+                  
+                   
+                </div>
+                <p id="healthConsers">Shop by health concerns</p>
+
+           
+         </div>
+
+
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-2 d-flex" >
+      <a href="care.html" class="text-decoration-none text-dark">
+        <div class="box d-flex flex-column justify-content-center align-items-center">
+            <img src="img/concern1.png" alt="">
+            <p class="text-center pt-3">Diabetes</p>
+        </div>
+      </a>
+        </div>
+
+        <div class="col-2 d-flex" >
+            <div class="box1 d-flex flex-column justify-content-center align-items-center">
+                <img src="img/concern2.png" alt="">
+                <p class="text-center pt-3">Heart Care</p>
+            </div>
+        </div>
+
+        <div class="col-2 d-flex" >
+                <div class="box1 d-flex flex-column justify-content-center align-items-center">
+                    <img src="img/concern3.png" alt="">
+                    <p class="text-center pt-3">Stomach Care</p>
+                </div>
+        </div>
+
+
+        <div class="col-2 d-flex" >
+                    <div class="box1 d-flex flex-column justify-content-center align-items-center">
+                        <img src="img/concern4.png" alt="">
+                        <p class="text-center pt-3">Kidney Care</p>
+                    </div>
+        </div>
+
+
+        <div class="col-2 d-flex" >
+                        <div class="box1 d-flex flex-column justify-content-center align-items-center">
+                            <img src="img/concern5.png" alt="">
+                            <p class="text-center pt-3">Liver Care</p>
+                        </div>
+        </div>
+
+
+        <div class="col-2 d-flex" >
+                            <div class="box1 d-flex flex-column justify-content-center align-items-center">
+                                <img src="img/concern6.png" alt="">
+                                <p class="text-center pt-3">Derma care</p>
+                            </div>
+        </div>
+
+       
+        
+       
+     </div>
+   
+           
+
+
+       
+        
+          
+       
+     </div>
+
+
+
+
+</div>
+
+         
+
+
+
+
+
+
+
+
+
+
+
 </body>
+<script>
+    $(document).ready(function () {
+    $('.slider').slick({
+        dots: true,          // Show navigation dots
+        arrows: true,        // Enable next/prev arrows
+        autoplay: true,      // Enable autoplay
+        autoplaySpeed: 3000, // Slide interval (in ms)
+    });
+});
+
+
+
+
+
+</script>
+
 <script src="js/login.js"></script>
+<script src="js/slider2.js"></script>
+
 </html>

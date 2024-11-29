@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/signup.css">
+
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/care.css">
+
+    <!-- bootstrap cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap cdn  -->
+
+    <!-- fontawesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fontawesome cdn  -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+
+
+        <!-- navbar start  -->
+         <div class="row">
+
+            <div class="col-1">
+                <img src="img/tata_1mg_logo.svg" alt="" class="img-fluid">
+            </div>
+
+            <div class="col-7 d-flex justify-content-evenly align-items-center">
+
+                <a href="" id="a1">Medicines</a>
+                <a href="" id="a">Lab Tests</a>
+                <a href="" id="a">Consult Doctors</a>
+                <a href="" id="a">Cancer Care</a>
+                <a href="" id="a">Partnerships</a>
+                <a href="" id="a">Care Plan</a>
+
+
+
+
+            </div>
+
+            <div class="col-1">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    log-in
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <!-- <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5> -->
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h1>Login</h1>
+                                <p>Get access to your orders, lab tests & doctor consultations</p>
+                                <br><br>
+
+                                <form action="" id="formData">
+                                    <input type="text" name="" id="input1" placeholder="enter your email ID" id="">
+                                    <br><br>
+                                    <button id="btn1">LOGIN</button>
+                                    <br><br>
+                                </form>
+
+                                <p class="ps-3">New on 1mg? <a href="signup.html" onclick="" id="a2">Sign Up</a></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <div class="col-2 d-flex justify-content-evenly align-items-center">
+                <a href="" class="text-decoration-none text-dark">Offers</a>
+                <a href="" class="text-decoration-none text-dark">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="" class="text-decoration-none text-dark">Need Help?</a>
+            </div>
+
+
+
+
+
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-3 d-flex justify-content-center  ">
+
+                <div id="Location" class="position-relative d-flex align-items-center">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <font id="City">Botad</font>
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                </div>
+
+            </div>
+            <div class="col-5 position-relative d-flex align-items-center">
+                <input type="text" name="" id="Search" placeholder="Search for Medicines and Health Products"
+                    class="ps-2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="col-1">
+
+            </div>
+            <div class="col-3">
+                <i class="fa-solid fa-bolt"></i>
+                <font>
+                    QUICK BUY!</font>
+
+                <button id="btn2">Quick Order</button>
+            </div>
+        </div>
+        <!-- navbar over  -->
+    
+    <div class="container-fluid">
+            <div class="container">
+    
+                <div class="row">
+                    <div class="col-2 position-relative bg-light" style="height: 300px;">
+                        <h4 class="Categories bg-light">CATEGORIES
+                        </h4>
+                        <h6 class="Diabetes bg-light">Diabetes</h6>
+    
+                        <a href="" id="categories1" class="bg-light">Top Picks - Diabetes Care</a>
+                        <br>
+                        <a href="" id="categories1" class="bg-light">Diabetes Nutrition Offers</a>
+                        <br>
+                        <a href="" id="categories1" class="bg-light">Blood Glucose Monitors</a>
+                        <br>
+                        <a href="" id="categories1" class="bg-light">Test Strips & Lancets</a>
+                        <br>
+                        <a href="" id="categories1" class="bg-light">Sugar Free</a>
+                        <br>
+                        <a href="" id="categories1" class="bg-light">Ayurvedic Diabetes Remedies</a>
+                        <br>
+                        <a href="" id="categories1" class="bg-light"> Diabetic Medicines
+                            <i class="fa-solid fa-plus bg-light"></i>
+                        </a>
+                        <br>
+                        <a href="" id="categories1" class="bg-light">Sugar Substitutes
+                            <i class="fa-solid fa-plus bg-light"></i>
+                        </a>
+                        <br>
+                        <a href="" id="categories1" class="bg-light">Diabetic Diet
+                            <i class="fa-solid fa-plus bg-light"></i>
+                        </a>
+                        <br>
+    
+    
+                    </div>
+                    <div class="col-9">
+                        <font id="menu">HOME <i class="fa-solid fa-chevron-right"></i> OTC Categories <i
+                                class="fa-solid fa-chevron-right"></i>
+                            <font id="menu2">Diabetes</font>
+                        </font>
+                         <h3 class="pt-2">DIABETES CARE</h3>
+                         <div class="row">
+                            <div class="col-12">
+                                <img src="img/sugarfree.png" alt="" class="img-fluid mt-3">
+                            </div>
+    
+                         </div>
+    
+                         <h4 class="pt-5 ps-5">Shop by category</h4>
+    
+                         <div class="row" id="row3">
+                            <div class="col-sm-6 col-md-4 col-lg-2 ">
+                                <div class="box2 d-flex justify-content-center align-items-center flex-column">
+                                    <img src="img/medicine1.jpg" alt="">
+                                    <p>Blood Glucose monitors</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-sm-6 col-md-4 col-lg-2 ">
+                                <div class="box2 d-flex justify-content-center align-items-center flex-column">
+                                    <img src="img/medicine2.png" alt="">
+                                    <p>Blood Glucose monitors</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-sm-6 col-md-4 col-lg-2 ">
+                                <div class="box2 d-flex justify-content-center align-items-center flex-column">
+                                    <img src="img/medicine3.png" alt="">
+                                    <p>Blood Glucose monitors</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-sm-6 col-md-4 col-lg-2 ">
+                                <div class="box2 d-flex justify-content-center align-items-center flex-column">
+                                    <img src="img/medicine4.png" alt="">
+                                    <p>Blood Glucose monitors</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-sm-6 col-md-4 col-lg-2 ">
+                                <div class="box2 d-flex justify-content-center align-items-center flex-column">
+                                    <img src="img/medicine5.png" alt="">
+                                    <p>Blood Glucose monitors</p>
+                                </div>
+                            </div>
+    
+                            
+                            <div class="col-sm-6 col-md-4 col-lg-2 ">
+                                <div class="box2 d-flex justify-content-center align-items-center flex-column">
+                                    <img src="img/medicine6.png" alt="">
+                                    <p>Blood Glucose monitors</p>
+                                </div>
+                            </div>
+                         </div>
+    
+                         <h4 class="pt-5 ps-5">Shop By Brand</h4>
+    
+    
+                         <div class="row mt-5" id="row3">
+                            <div class="col-2 ">
+                                <div class="box3 d-flex justify-content-center align-items-center flex-column">
+                                    <img src="img/logo1.png" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="col-2 ">
+                                <div class="box3 d-flex justify-content-center align-items-center flex-column">
+                                    <img src="img/logo2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="col-2 ">
+                                <div class="box3 d-flex justify-content-center align-items-center flex-column">
+                                    <img src="img/logo3.png" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="col-2 ">
+                                <div class="box3 d-flex justify-content-center align-items-center flex-column">
+                                    <img src="img/logo4.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="col-2 ">
+                                <div class="box3 d-flex justify-content-center align-items-center flex-column">
+                                    <img src="img/logo5.png" alt="">
+                                </div>
+                            </div>
+    
+                            
+                            <div class="col-2 ">
+                                <div class="box3 d-flex justify-content-center align-items-center flex-column">
+                                    <img src="img/logo6.png" alt="">
+                                </div>
+                            </div>
+                         </div>
+
+                         <h4 class="pt-5 ps-5">Ayurveda Diabetes Care</h4>
+
+                         <div class="row mt-5 d-flex justify-content-center" id="row4">
+
+                           <div class="col-2 ronak">
+              
+                            <div class="image1 d-flex justify-content-center align-items-center">
+
+                               <img src="img/ayurved1.png" alt="" class="img-fluid">
+
+                            </div> 
+                            <div class="text">
+                                <p id="p1">TATA 1mg Tejasya Karela Capsule 500mg</p>
+                                <p id="p2">bottle of 60 capsule</p>
+                                <div id="rate" class="d-flex justify-content-center align-items-center">4.3<i class="fa-solid fa-star"></i></div>
+                                <font class="text-secondary" id="rating" style="background-color: white;">463 Rating</font> 
+                                <h6 class="text-secondary" style="background-color: white;">MRP <font class="text-decoration-line-through" style="background-color: white;">245</font> <font style="font-size: 14px; color: #1AAB2A; background-color: white;" class="ps-2">19% off</font></h6>
+                                <h4 class="" style="background-color: white;">199 <font style="color: #FF6F61; font-size: 15px; background-color: white;" class="ps-5" id="">add</font></h4>
+
+                            </div>
+
+                           </div>
+
+                           <div class="col-2 ronak">
+              
+                            <div class="image1 d-flex justify-content-center align-items-center">
+
+                               <img src="img/ayurved2.png" alt="" class="img-fluid">
+
+                            </div> 
+                            <div class="text">
+                                <p id="p1">TATA 1mg Tejasya Karela Capsule 500mg</p>
+                                <p id="p2">bottle of 60 capsule</p>
+                                <div id="rate" class="d-flex justify-content-center align-items-center">4.3<i class="fa-solid fa-star"></i></div>
+                                <font class="text-secondary" id="rating" style="background-color: white;">463 Rating</font> 
+                                <h6 class="text-secondary" style="background-color: white;">MRP <font class="text-decoration-line-through" style="background-color: white;">245</font> <font style="font-size: 14px; color: #1AAB2A; background-color: white;" class="ps-2">19% off</font></h6>
+                                <h4 class="" style="background-color: white;">199 <font style="color: #FF6F61; font-size: 15px; background-color: white;" class="ps-5" id="">add</font></h4>
+
+                            </div>
+
+                           </div>
+
+
+                           <div class="col-2 ronak">
+              
+                            <div class="image1 d-flex justify-content-center align-items-center">
+
+                               <img src="img/ayurved3.png" alt="" class="img-fluid">
+
+                            </div> 
+                            <div class="text">
+                                <p id="p1">TATA 1mg Tejasya Karela Capsule 500mg</p>
+                                <p id="p2">bottle of 60 capsule</p>
+                                <div id="rate" class="d-flex justify-content-center align-items-center">4.3<i class="fa-solid fa-star"></i></div>
+                                <font class="text-secondary" id="rating" style="background-color: white;">463 Rating</font> 
+                                <h6 class="text-secondary" style="background-color: white;">MRP <font class="text-decoration-line-through" style="background-color: white;">245</font> <font style="font-size: 14px; color: #1AAB2A; background-color: white;" class="ps-2">19% off</font></h6>
+                                <h4 class="" style="background-color: white;">199 <font style="color: #FF6F61; font-size: 15px; background-color: white;" class="ps-5" id="">add</font></h4>
+
+                            </div>
+
+                           </div>
+
+
+
+                           <div class="col-2 ronak">
+              
+                            <div class="image1 d-flex justify-content-center align-items-center">
+
+                               <img src="img/ayurved4.png" alt="" class="img-fluid">
+
+                            </div> 
+                            <div class="text">
+                                <p id="p1">TATA 1mg Tejasya Karela Capsule 500mg</p>
+                                <p id="p2">bottle of 60 capsule</p>
+                                <div id="rate" class="d-flex justify-content-center align-items-center">4.3<i class="fa-solid fa-star"></i></div>
+                                <font class="text-secondary" id="rating" style="background-color: white;">463 Rating</font> 
+                                <h6 class="text-secondary" style="background-color: white;">MRP <font class="text-decoration-line-through" style="background-color: white;">245</font> <font style="font-size: 14px; color: #1AAB2A; background-color: white;" class="ps-2">19% off</font></h6>
+                                <h4 class="" style="background-color: white;">199 <font style="color: #FF6F61; font-size: 15px; background-color: white;" class="ps-5" id="">add</font></h4>
+
+                            </div>
+
+                           </div>
+
+
+                           <div class="col-2 ronak">
+              
+                            <div class="image1 d-flex justify-content-center align-items-center">
+
+                               <img src="img/ayurved5.png" alt="" class="img-fluid">
+
+                            </div> 
+                            <div class="text">
+                                <p id="p1">TATA 1mg Tejasya Karela Capsule 500mg</p>
+                                <p id="p2">bottle of 60 capsule</p>
+                                <div id="rate" class="d-flex justify-content-center align-items-center">4.3<i class="fa-solid fa-star"></i></div>
+                                <font class="text-secondary" id="rating" style="background-color: white;">463 Rating</font> 
+                                <h6 class="text-secondary" style="background-color: white;">MRP <font class="text-decoration-line-through" style="background-color: white;">245</font> <font style="font-size: 14px; color: #1AAB2A; background-color: white;" class="ps-2">19% off</font></h6>
+                                <h4 class="" style="background-color: white;">199 <font style="color: #FF6F61; font-size: 15px; background-color: white;" class="ps-5" id="">add</font></h4>
+
+                            </div>
+
+                           </div>
+
+                     
+
+                         </div>
+
+
+                         <div class="row">
+                            <div class="col-12">
+                                <img src="img/sugarlevel.jpg" alt="" class="img-fluid mt-3">
+                            </div>
+    
+                         </div>
+    
+                         <h4 class="pt-5 ps-5">Test Strips & Lancets</h4>
+
+                         <div class="row mt-5 d-flex justify-content-center " id="row4">
+
+                            <div class="col-2 ronak">
+               
+                             <div class="image1 d-flex justify-content-center align-items-center">
+ 
+                                <img src="img/ayurved6.png" alt="" class="img-fluid">
+ 
+                             </div> 
+                             <div class="text ">
+                                 <p id="p1">TATA 1mg Tejasya Karela Capsule 500mg</p>
+                                 <p id="p2">bottle of 60 capsule</p>
+                                 <div id="rate" class="d-flex justify-content-center align-items-center">4.3<i class="fa-solid fa-star"></i></div>
+                                 <font class="text-secondary" id="rating" style="background-color: white;">463 Rating</font> 
+                                 <h6 class="text-secondary" style="background-color: white;">MRP <font class="text-decoration-line-through" style="background-color: white;">245</font> <font style="font-size: 14px; color: #1AAB2A; background-color: white;" class="ps-2">19% off</font></h6>
+                                 <h4 class="" style="background-color: white;">199 <font style="color: #FF6F61; font-size: 15px; background-color: white;" class="ps-5" id="">add</font></h4>
+ 
+                             </div>
+ 
+                            </div>
+ 
+                            <div class="col-2 ronak">
+               
+                             <div class="image1 d-flex justify-content-center align-items-center">
+ 
+                                <img src="img/ayurved7.jpg" alt="" class="img-fluid">
+ 
+                             </div> 
+                             <div class="text">
+                                 <p id="p1">TATA 1mg Tejasya Karela Capsule 500mg</p>
+                                 <p id="p2">bottle of 60 capsule</p>
+                                 <div id="rate" class="d-flex justify-content-center align-items-center">4.3<i class="fa-solid fa-star"></i></div>
+                                 <font class="text-secondary" id="rating" style="background-color: white;">463 Rating</font> 
+                                 <h6 class="text-secondary" style="background-color: white;">MRP <font class="text-decoration-line-through" style="background-color: white;">245</font> <font style="font-size: 14px; color: #1AAB2A; background-color: white;" class="ps-2">19% off</font></h6>
+                                 <h4 class="" style="background-color: white;">199 <font style="color: #FF6F61; font-size: 15px; background-color: white;" class="ps-5" id="">add</font></h4>
+ 
+                             </div>
+ 
+                            </div>
+ 
+ 
+                            <div class="col-2 ronak">
+               
+                             <div class="image1 d-flex justify-content-center align-items-center">
+ 
+                                <img src="img/ayurved8.jpg" alt="" class="img-fluid">
+ 
+                             </div> 
+                             <div class="text">
+                                 <p id="p1">TATA 1mg Tejasya Karela Capsule 500mg</p>
+                                 <p id="p2">bottle of 60 capsule</p>
+                                 <div id="rate" class="d-flex justify-content-center align-items-center">4.3<i class="fa-solid fa-star"></i></div>
+                                 <font class="text-secondary" id="rating" style="background-color: white;">463 Rating</font> 
+                                 <h6 class="text-secondary" style="background-color: white;">MRP <font class="text-decoration-line-through" style="background-color: white;">245</font> <font style="font-size: 14px; color: #1AAB2A; background-color: white;" class="ps-2">19% off</font></h6>
+                                 <h4 class="" style="background-color: white;">199 <font style="color: #FF6F61; font-size: 15px; background-color: white;" class="ps-5" id="">add</font></h4>
+ 
+                             </div>
+ 
+                            </div>
+ 
+ 
+ 
+                            <div class="col-2 ronak">
+               
+                             <div class="image1 d-flex justify-content-center align-items-center">
+ 
+                                <img src="img/ayurved9.png" alt="" class="img-fluid">
+ 
+                             </div> 
+                             <div class="text">
+                                 <p id="p1">TATA 1mg Tejasya Karela Capsule 500mg</p>
+                                 <p id="p2">bottle of 60 capsule</p>
+                                 <div id="rate" class="d-flex justify-content-center align-items-center">4.3<i class="fa-solid fa-star"></i></div>
+                                 <font class="text-secondary" id="rating" style="background-color: white;">463 Rating</font> 
+                                 <h6 class="text-secondary" style="background-color: white;">MRP <font class="text-decoration-line-through" style="background-color: white;">245</font> <font style="font-size: 14px; color: #1AAB2A; background-color: white;" class="ps-2">19% off</font></h6>
+                                 <h4 class="" style="background-color: white;">199 <font style="color: #FF6F61; font-size: 15px; background-color: white;" class="ps-5" id="">add</font></h4>
+ 
+                             </div>
+ 
+                            </div>
+ 
+ 
+                            <div class="col-2 ronak">
+               
+                             <div class="image1 d-flex justify-content-center align-items-center">
+ 
+                                <img src="img/ayurved10.png" alt="" class="img-fluid">
+ 
+                             </div> 
+                             <div class="text">
+                                 <p id="p1">TATA 1mg Tejasya Karela Capsule 500mg</p>
+                                 <p id="p2">bottle of 60 capsule</p>
+                                 <div id="rate" class="d-flex justify-content-center align-items-center">4.3<i class="fa-solid fa-star"></i></div>
+                                 <font class="text-secondary" id="rating" style="background-color: white;">463 Rating</font> 
+                                 <h6 class="text-secondary" style="background-color: white;">MRP <font class="text-decoration-line-through" style="background-color: white;">245</font> <font style="font-size: 14px; color: #1AAB2A; background-color: white;" class="ps-2">19% off</font></h6>
+                                 <h4 class="" style="background-color: white;">199 <font style="color: #FF6F61; font-size: 15px; background-color: white;" class="ps-5" id="">add</font></h4>
+ 
+                             </div>
+ 
+                            </div>
+ 
+                      
+ 
+                          </div>
+
+                    </div>
+    
+                </div>
+    
+            </div>
+
+
+        </div>
+  
+        
+
+
+
+    </div>
+</body>
+
+</html>

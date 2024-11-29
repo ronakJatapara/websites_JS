@@ -39,3 +39,268 @@
 #a2{
     color: #FF6F61;
 }
+#Location{
+    width: 80%;
+    height: 35px;
+    background-color: #F1F4F6;
+    border: 1px solid black;
+    margin-left: 20%;
+}
+.fa-location-crosshairs{
+    position: absolute;
+    right: 20px;
+
+}
+#City{
+    position: absolute;
+    left: 50px;
+    font-size: 18px;
+    
+}
+.fa-location-dot{
+    position: absolute;
+    left: 15px;
+}
+#Search{
+    width: 100%;
+    height: 35px;
+    border: 1px solid black;
+    background-color: #F1F4F6;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    right: 20px;
+    font-size: 18px;
+
+}
+.fa-magnifying-glass:hover{
+    cursor: pointer;
+}
+.fa-bolt
+{
+  color: #8D5747;   
+}
+.fa-bolt:hover{
+    cursor: pointer;
+}
+#btn2{
+    width: 150px;
+    height: 35px;
+    background-color: #FF6F61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+
+
+
+
+/* slider one css start  */
+
+
+.slider {
+    width: 100%;
+    /* max-width: 900px; */
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+  }
+  .item {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff ;
+  }
+  
+  /* Prev and Next Arrows */
+  .slick-prevs, .slick-nexts {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #f1f1f1;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    visibility: visible;
+  }
+  
+  .slick-nexts {
+  right: 8px;
+  }
+  
+  .slick-prevs {
+    left: 8px;
+    z-index: 1;
+  }
+  
+  .bg-red {background: linear-gradient(to right, #da4453, #89216b);}
+  .bg-yellow {background: #BB2649;}
+  .bg-blue {background: #6667AB;}
+  .bg-green {background: #63a763}
+  .bg-orange {background: #af7a18;}
+  .bg-brown {background: brown;}
+  
+  /* Slider Dots Styles */
+  
+  .slider-nav {
+      display: flex;
+      width: 100px;
+      overflow: hidden;  
+      margin: 10px auto;
+      height: 50px;
+      align-items: center;
+      padding:  0 3px;
+    position: relative;
+  }
+  .slider-nav ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      transition: all ease 0.4s;
+    bottom: auto;
+  }
+  
+  .slider-nav ul li button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 50%; /* Default shape is a circle */
+    background: #d3d3d3;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for inactive dots */
+    transform: scale(0.5) /* Smooth transition for inactive dots */
+  }
+  
+  .slider-nav ul li button::before {
+    display: none;
+  }
+  
+  .slider-nav ul li.dot--medium button {
+      transform: scale(0.8)
+  }
+  
+  .slider-nav ul li button {
+      font-size: 0;
+      width: 10px;
+      height: 10px;
+      border: none;
+      border-radius: 50%;
+      background: #d3d3d3;
+      padding: 0;
+      cursor: pointer;
+  }
+  
+  .slider-nav ul li {
+      margin: 0;
+      margin-right: 10px;
+      line-height: 0;
+  }
+  
+  .slider-nav ul li:last-child {
+      margin-right: 0;
+  }
+  
+   /* Active Dot Rectangle Animation */
+  .slider-nav ul li.slick-active button {
+    background-color: #000000;
+    transform: scale(1.2);
+    animation: circle-to-rectangle 0.4s forwards; /* Animation to transform to rectangle */
+    width: 20px; /* Rectangle width */
+    height: 10px; /* Rectangle height */
+    border-radius: 15px; /* Rounded rectangle */
+  }
+  
+  /* Define the circle-to-rectangle animation */
+  @keyframes circle-to-rectangle {
+    0% {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%; /* Start as a circle */
+    }
+    100% {
+      width: 20px;
+      height: 10px;
+      border-radius: 15px; /* End as a rectangle with rounded corners */
+    }
+  }
+ .bg-red{
+  height: 230px;
+
+ }
+
+
+
+  /* first slider css over  */
+
+  #row1{
+    background-color: white;
+  }
+#Section1 img{
+   width: 100%;
+}
+  #Section2{
+    height: 230px;
+    margin-top: 30px;
+  }
+  #Section2 img{
+    width: 100%;
+  }
+  .platform{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+  }
+  .platform:hover{
+    cursor: pointer;
+  }
+  #row2{
+    height: 250px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #F6F6F6;
+  }
+  #img2{
+    width: 80%;
+    height: 150px;
+  }
+  #healthConsers{
+    padding-left: 157px;
+    font-size: 18px;
+    font-weight: bold
+  }
+
+  .box1{
+    width: 200px;
+    height: 250px;
+    /* border: 1px solid black; */
+ }
+ .box img{
+   height: 150px;
+ }
+ .box:hover{
+   box-shadow: 2px 2px 10px rgb(125, 124, 124);
+ }
+.box{
+   width: 200px;
+   height: 250px;
+   /* border: 1px solid black; */
+}
+.box1 img{
+  height: 150px;
+}
+.box1:hover{
+  box-shadow: 2px 2px 10px rgb(125, 124, 124);
+}
+
+  /* slider 2 css start  */
+
