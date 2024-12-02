@@ -5,5 +5,260 @@
       "email": "ronakjatapara@gmail.com",
       "pass": "12345"
     }
-  ]
+  ],
+  
+  "products":[
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/6f2f500445be42849dcbd576e83f7046.jpg",
+      "name":"Protinex Diabetes Care Protein Powder with Vitamins",
+      "extra":"box of 400 gm powder",
+      "rate":"558 ratings", 
+      "mrp":"760",
+      "off":"19% off",
+      "price":"646",
+      "id":"1"
+    },
+
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/a614278628b746d79dc7d606bb2900c1.jpg",
+      "name":"Accu-Chek Active Blood Glucometer Kit (Box of 10 Test strips Free) | Blood Glucose Monitors",
+      "extra":"Roche Diabetes Care India Pvt Ltd",
+      "rate":"558 ratings",
+      "mrp":"1681",
+      "off":"18% off",
+      "price":"983",
+      "id":"2"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/08eaa3c1e0154dd4938b59a34505618a.jpg",
+      "name":"Lakanto Natural Sweetener-Classic Japanese Monkfruit Sticks | Sugar free, Zero Calories (30 Each)",
+      "extra":"combo pack of 2 sachets",
+      "rate":"748 ratings",
+      "mrp":"650",
+      "off":"9% off",
+      "price":"590",
+      "id":"3"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/dc307fcd6716499bb996d3b2a96031ce.jpg",
+      "name":"Dabur Jamun Neem Karela Ayurvedic Juice | For Healthy Glucose Levels, Digestion, Metabolism & Immunity",
+      "extra":"Bottle of 1 Ltr Juice",
+      "rate":"1490 ratings",
+      "mrp":"335",
+      "off":"23% OFF",
+      "price":"290",
+      "id":"4"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/f8f583935c5b46df9e3c8b111bb755cf.jpg",
+      "name":"Protinex Diabetes Care - with Protein and High Fiber for Blood Sugar Control (500gm Each) Creamy Vanilla",
+      "extra":"Combo of 2 packs",
+      "rate":"1490 ratings",
+      "mrp":"1770",
+      "off":"25% OFF",
+      "price":"1343",
+      "id":"5"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/c9229705caa14762ae24028a8df851eb.jpg",
+      "name":"Pintola All Natural Peanut Butter Extra Crunchy Unsweetened",
+      "extra":"Jar of 350 gm butter",
+      "rate":"1490 ratings",
+      "mrp":"335",
+      "off":"6% OFF",
+      "price":"175",
+      "id":"6"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e6c60720f240443ab2fa653b1b98e251.jpg",
+      "name":"Accu-Chek Instant Glucometer Combo Pack with Free 10 Test Strips",
+      "extra":"1 box of units",
+      "rate":"447 ratings",
+      "mrp":"1549",
+      "off":"15% OFF",
+      "price":"1317",
+      "id":"7"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/2ff26656d9fc407fbd08258be406ad56.jpg",
+      "name":"Dabur Chyawanprakash Sugar-Free (Chyawanprash) | Suitable for Diabetics & Boosts Immunity",
+      "extra":"Jar of 900 gm Patse",
+      "rate":"3406 ratings",
+      "mrp":"460",
+      "off":"16% OFF",
+      "price":"386",
+      "id":"8"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/fa4a95c9271348778cfa0aaa481e0b33.jpg",
+      "name":"Protinex Diabetes Care Protein Powder with Vitamins | For Strength, Blood",
+      "extra":"Box of 200 gm powder",
+      "rate":"337 ratings",
+      "mrp":"410",
+      "off":"8% OFF",
+      "price":"377",
+      "id":"9"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/81e831da9351456a81ca24421b73dfa9.jpg",
+      "name":"Accu-Chek Instant Test Strip ( Only Strip)",
+      "extra":"Box of 50 Test Stript",
+      "rate":"3153 ratings",
+      "mrp":"1190",
+      "off":"14% OFF",
+      "price":"1023",
+      "id":"10"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/2ff26656d9fc407fbd08258be406ad56.jpg",
+      "name":"Dabur Chyawanprakash Sugar-Free (Chyawanprash) | Suitable for Diabetics & Boosts Immunity",
+      "extra":"Jar of 900 gm Patse",
+      "rate":"3406 ratings",
+      "mrp":"460",
+      "off":"16% OFF",
+      "price":"386",
+      "id":"11"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/5aabe80e44734a52a21eb2a1ecd472d4.jpg",
+      "name":"Dabur Glycodab Ayurvedic Tablets | For Blood Sugar Management & Metabolism",
+      "extra":"Bottles of 60 Tables",
+      "rate":"258 ratings",
+      "mrp":"375",
+      "off":"16% OFF",
+      "price":"275",
+      "id":"12"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/bbca55b150ea4d92ba5e985eb582226c.jpg",
+      "name":"Tata 1mg Tejasya Karela Capsule 500mg",
+      "extra":"Bottles of 60 Capsule",
+      "rate":"463 ratings",
+      "mrp":"245",
+      "off":"19% OFF",
+      "price":"199",
+      "id":"13"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/69d8af0d26a940dda324a0cd49bd9ab5.jpg",
+      "name":"Sugar Free Gold Plus Low Calorie Aspartame Sweetener",
+      "extra":"Bbottles of 500 pellets",
+      "rate":"3334 ratings",
+      "mrp":"310",
+      "off":"10% OFF",
+      "price":"279",
+      "id":"14"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/cmrzmaq7uw07cjvvmmxq.jpg",
+      "name":"Patanjali Divya Madhunashini Vati Extra Power",
+      "extra":"Box of 120 tables",
+      "rate":"1543 ratings",
+      "mrp":"310",
+      "off":"10% OFF",
+      "price":"245",
+      "id":"15"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/dc307fcd6716499bb996d3b2a96031ce.jpg",
+      "name":"Dabur Jamun Neem Karela Ayurvedic Juice | For Healthy Glucose Levels, Digestion, Metabolism & Immunity",
+      "extra":"Bottle of 1 Ltr Juice",
+      "rate":"1490 ratings",
+      "mrp":"299",
+      "off":"21% OFF",
+      "price":"210",
+      "id":"16"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/31088dfbad5a4d079022363de0b68c06.jpg",
+      "name":"Diabaction Powder",
+      "extra":"Bottle of 100 gm powder",
+      "rate":"1490 ratings",
+      "mrp":"139",
+      "off":"20% OFF",
+      "price":"111",
+      "id":"17"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d9bac77b0e0847beaf430b45bce8d08b.jpg",
+      "name":"Decode Age Fisetin Vegetarian Capsule | Senolytic Activator 100 mg, Improves Memory",
+      "extra":"Bottle of 30 vegicaps",
+      "rate":"1490 ratings",
+      "mrp":"1500",
+      "off":"20% OFF",
+      "price":"1200",
+      "id":"18"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/hx2gxivwmeoxxxsc1hix.png",
+      "name":"Himalaya Diabecon DS Tablet | Manages Blood Sugar Level",
+      "extra":"Bottles of 60 Tables",
+      "rate":"1052 ratings",
+      "mrp":"250",
+      "off":"9% OFF",
+      "price":"228",
+      "id":"19"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/cropped/epifmgouqi6h9ulye0hq.jpg",
+      "name":"Naulakha Blood Lancet (Only Lancets)",
+      "extra":"Box of 100 lancets",
+      "rate":"27 ratings",
+      "mrp":"285",
+      "off":"25% OFF",
+      "price":"214",
+      "id":"20"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/4ba3342d-ea70-475b-a65d-1a6de9e87c1d.jpeg",
+      "name":"Dr Morepen BG 03 Gluco One Blood Glucose Monitoring System (Only Glucometer) ",
+      "extra":"Box of 1 units",
+      "rate":"521 ratings",
+      "mrp":"665",
+      "off":"31% OFF",
+      "price":"459",
+      "id":"21"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/5697aa8ac836403b8810d6838971164a.jpg",
+      "name":"Herbal Hills Gurmar Powder ",
+      "extra":"1 kg powder",
+      "rate":"229 ratings",
+      "mrp":"665",
+      "off":"6% OFF",
+      "price":"620",
+      "id":"22"
+    },
+    {
+      "image":"https://onemg.gumlet.io/l_watermark_346,w_150,h_150/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e15d0b355c3f4fb884360a855e49a8f4.jpg",
+      "name":"Combo Pack of SBL Syzygium Jambolanum Mother Tincture Q",
+      "extra":"Bottle of 1 Ltr Juice",
+      "rate":"1490 ratings",
+      "mrp":"489",
+      "off":"6% OFF",
+      "price":"455",
+      "id":"23"
+    },
+    {
+      "image":"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/mszun9db5x3csomttv9p.jpg",
+      "name":"K-Life GluNeo Lite Blood Glucose Test Strip (Only Strips) | Diabetes Monitoring Devices",
+      "extra":"Bottle of 100 gm powder",
+      "rate":"1490 ratings",
+      "mrp":"139",
+      "off":"20% OFF",
+      "price":"111",
+      "id":"24"
+    }
+
+
+
+
+
+
+   
+  ],
+  "small":[{
+     "image1":"https://onemg.gumlet.io/l_watermark_346,w_120,h_120/a_ignore,w_120,h_120,c_fit,q_auto,f_auto/4ba3342d-ea70-475b-a65d-1a6de9e87c1d.jpeg",
+     "image2":"https://onemg.gumlet.io/l_watermark_346,w_120,h_120/a_ignore,w_120,h_120,c_fit,q_auto,f_auto/f939c1da-84b0-4242-9bf4-0915782f6fb8.jpeg"
+  }]
 }
