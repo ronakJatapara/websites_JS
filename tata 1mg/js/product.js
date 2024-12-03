@@ -23,6 +23,7 @@ fetch(`http://localhost:3000/products`)
 
 
 
+
 function view(arr)
 {
     return arr.map((el,ind)=>{
@@ -74,6 +75,43 @@ function view(arr)
         `
     }).join("")
 }
+
+
+
+
+fetch(`http://localhost:3000/small`)
+.then((res)=>{
+    return res.json();
+
+})
+.then((Res)=>{
+    console.log(Res);
+   
+    
+})
+.catch((err)=>{
+    console.log(err);
+    
+})
+
+
+
+fetch("http://localhost:3000/bigText")
+.then((res)=>{
+    return res.json();
+})
+.then((Res)=>{
+   console.log(Res);
+   
+})
+.catch((err)=>{
+    console.log(err);
+    
+})
+
+
+
+
 
 
 

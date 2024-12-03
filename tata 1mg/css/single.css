@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.smallimg1{
+    width: 80%;
+    /* border: 1px solid black; */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smallimg2{
+    width: 80%;
+    /* border: 1px solid black; */
+    height: 60px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smallimg3{
+    width: 80%;
+    /* border: 1px solid black; */
+    height: 60px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smallimg4{
+    width: 80%;
+    /* border: 1px solid black; */
+    height: 60px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smallimg5{
+    width: 80%;
+    /* border: 1px solid black; */
+    height: 60px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigImg{
+  height: 400px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.mainText{
+    width: 100%;
+    border: 1px solid black;
+    height: 500px;
+}
+.lastValue{
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+}
+.smallimg1 img,.smallimg2 img,.smallimg3 img,.smallimg4 img,.smallimg5 img{
+    height: 70%;
+    width: 70%;
+}
+
+.smallimg1 img:hover,.smallimg2 img:hover,.smallimg3 img:hover,.smallimg4 img:hover,.smallimg5 img:hover{
+    cursor: pointer;
+}
+.bigImage{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.bigImage img{
+    height: 60%;
+    width: 80%;
+}
+.bigText{
+    width: 100%;
+    /* border: 1px solid black; */
+    /* height: 300px; */
+    position: relative;
+}
+#prName{
+    font-size: 20px;
+    font-weight: bold;
+}
+#prName:hover{
+    cursor: pointer;
+}
+#prLtd{
+    color: #FF6F61;
+    /* font-weight: bold; */
+    font-size: 13px;
+}
+#prLtd:hover{
+    cursor: pointer;
+}
+#textReview{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    background-color: #1AAB2A;
+    color: white;
+    border-radius: 4px;
+}
+.fa-star{
+    font-size: 12px;
+}
+#rating{
+    
+    color: #FF6F61;
+
+}
+#rating:hover{
+    cursor: pointer;
+}
+#title:hover{
+    cursor: pointer;
+}
+ul:hover{
+   cursor: pointer;
+}
+.lastBox{
+    width: 100%;
+    border: 1px solid  black;
+    height: 300px;
+}
+/* #row11{
+    width: 100%;
+    background-color: #35c346;
+    border: 1px solid black;
+} */
+#lastBoxText{
+    color: #1AAB2A;
+}
+.uper{
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    background-color: #e0f9e4;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.last{
+    width: 100%;
+    border: 1px solid black;
+
+
+}
+#upertext{
+    color: #000000;
+}
