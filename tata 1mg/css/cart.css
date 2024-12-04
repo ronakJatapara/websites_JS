@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cartRow{
+    /* height: 130px; */
+    width: 100%;
+    border: 1px solid black;
+}
+#cartImg{
+    width: 80px;
+    height: 100px;
+}
+#cartName{
+    font-size: 17px;
+    font-weight: bold;
+}
+#cartRemove{
+    font-size: px;
+    color: #BABABA;
+    text-decoration: underline;
+}
+#cartPrice{
+    color: black;
+    font-weight: bold;
+
+}
+#cartMrp{
+    color: #BABABA;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+#cartOff{
+    color: #208376;
+}
+#cartItem{
+    width: 90%;
+    height: 45px;
+    border: 1px solid rgb(255, 0, 0);
+}
+#row13{
+    width: 100%;
+    /* border: 1px solid black; */
+    /* border-color: #FF6F61; */
+    /* background-color: white; */
+}
+
+#minus{
+    color: #FF6F61;
+}
+#plus{
+    color: #FF6F61;
+}
+#minus:hover{
+   cursor: pointer;
+}
+#plus:hover{
+   cursor: pointer;
+}
+#cartRemove:hover{
+    cursor: pointer;
+}
