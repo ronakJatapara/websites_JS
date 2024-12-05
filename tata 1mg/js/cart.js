@@ -5,8 +5,14 @@ function fetchingData()
         return res.json();
     })
     .then((Res)=>{
-        console.log(Res);
+        total(Res)
         document.querySelector(".add2").innerHTML=view(Res)
+
+
+        if(Res.length==0)
+        {
+            window.location.href="care.html"
+        }
         
     })
     .catch((err)=>{
@@ -16,6 +22,15 @@ function fetchingData()
 }
 
 
+function total(Res)
+{
+    let sum=0;
+
+    Res.forEach((el,ind) =>{
+        sum+=Number(el.price) * Number(el.quantity);
+    });
+    document.querySelector(".bill").innerText = sum
+}
 
 
 function view(arr)
@@ -57,6 +72,9 @@ function view(arr)
                   
                 </div>
                </div>
+                      <div class="line"></div>
+
+
         `
     }).join(" ")
 }

@@ -1,7 +1,3 @@
-
-
-
-
 function render() {
     let data = new URLSearchParams(window.location.search)
     let id = data.get("id");
@@ -44,15 +40,6 @@ function render() {
 }
 
 
-
-
-
-
-
-
-
-
-
 function render2() {
     let data2 = new URLSearchParams(window.location.search)
     let id2 = data2.get("id");
@@ -74,10 +61,6 @@ function render2() {
 
         })
 }
-
-
-
-
 
 
 function view2(arr) {
@@ -116,8 +99,9 @@ function view2(arr) {
 
             
         `
-    })
+    }).join("");
 }
+
 
 function view(arr) {
     return `
@@ -127,14 +111,6 @@ function view(arr) {
     `
 
 }
-
-
-
-
-
-
-
-
 
 
 function render3() {
@@ -200,8 +176,9 @@ function view3(arr) {
     <li>${el.titleNote4}</li>
     </ul>
         `
-    })
+    }).join("");
 }
+
 
 function render4() {
     let data4 = new URLSearchParams(window.location.search);
@@ -240,6 +217,8 @@ function render4() {
 
         })
 }
+
+
 function view4(arr) {
     return arr.map((el, ind) => {
         return `
@@ -293,11 +272,8 @@ function view4(arr) {
             </div>
              
         `
-    })
+    }).join("")
 }
-
-
-
 
 
 function PostData(data) {
@@ -352,12 +328,6 @@ function PostData(data) {
 
 
 }
-
-
-
-
-
-
 
 
 render();

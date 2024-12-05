@@ -11,6 +11,8 @@
 
      <link rel="stylesheet" href="css/cart.css">
      <link rel="stylesheet" href="css/care.css">
+     <!-- <link rel="stylesheet" href="css/style.css"> -->
+
  
      <!-- bootstrap cdn  -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -31,17 +33,100 @@
 </head>
 <body style="background-color: white;">
    <div class="container-fluid">
+
+           <!-- navbar start  -->
+           <div class="row">
+
+            <div class="col-1">
+                <img src="img/tata_1mg_logo.svg" alt="" class="img-fluid">
+            </div>
+
+            <div class="col-7 d-flex justify-content-evenly align-items-center">
+
+                <a href="" id="a1" style="text-decoration: none; color: black;">Medicines</a>
+                <a href="" id="a" style="text-decoration: none; color: black;">Lab Tests</a>
+                <a href="" id="a" style="text-decoration: none; color: black;">Consult Doctors</a>
+                <a href="" id="a" style="text-decoration: none; color: black;">Cancer Care</a>
+                <a href="" id="a" style="text-decoration: none; color: black;">Partnerships</a>
+                <a href="" id="a" style="text-decoration: none; color: black;">Care Plan</a>
+
+
+
+
+            </div>
+
+            <div class="col-1">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    log-in
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <!-- <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5> -->
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h1>Login</h1>
+                                <p>Get access to your orders, lab tests & doctor consultations</p>
+                                <br><br>
+
+                                <form action="" id="formData">
+                                    <input type="text" name="" id="input1" placeholder="enter your email ID" id="">
+                                    <br><br>
+                                    <button id="btn1">LOGIN</button>
+                                    <br><br>
+                                </form>
+
+                                <p class="ps-3">New on 1mg? <a href="signup.html" onclick="" id="a2">Sign Up</a></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <div class="col-2 d-flex justify-content-evenly align-items-center">
+                <a href="" class="text-decoration-none text-dark">Offers</a>
+                <a href="cart.html" class="text-decoration-none text-dark">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="" class="text-decoration-none text-dark">Need Help?</a>
+            </div>
+
+
+
+
+
+        </div>
+        <hr>
+       
+        <!-- navbar over  -->
     <div class="box">
 
         <div class="container">
             <div class="row">
             
-                <div class="col-7 add2">
+                <div class="col-7 add2 position-relative">
     
     
                
-    
-    
     
                 </div>
     
@@ -49,7 +134,100 @@
     
     
     
-                <div class="col-5 "></div>
+                <div class="col-5 ">
+                   
+                    <div class="container">
+
+                    <div class="coreplan d-flex justify-content-center align-items-center text-light">
+                        core plan
+                    </div>
+
+                    <h5 class="pt-3">You can save extra ₹124 on this order</h6>
+                        <h6 class="" style="color: #904138;">Become a careplan member</h6>
+                        <font style="color: #7A787A;">3 months membership for only</font>
+                        <font style="font-size: 18px;">₹165</font>
+                        <font style="text-decoration: line-through; font-size: 14px; color: #7A787A;">₹549</font>
+                        <font style="color: #20857F;">70% off</font>
+                        <br><br>
+
+                        <button id="btn3">Know More</button>
+                        <button id="btn4">Add membership</button>
+                        <hr>
+
+
+                        <div class="row">
+                            <div class="col-1"><img src="img/coupon_18px_primary.svg" alt="" class="img-fluid"></div>
+                            <div class="col-10">Apply coupon</div>
+                            <div class="col-1"><i class="fa-solid fa-angle-right"></i></div>
+                        </div>
+
+                        <hr size="10px" class="mt-4">
+
+
+                        <p style="font-size: 17px;">Check the health of your vital organs</p>
+                        <p style="font-size: 15px; padding-left: 20px;">Book Good Health Silver Package for just ₹649</p>
+                        <p style="font-size: 14px; padding-left: 20px;">Get the tests done easily from your home. This package will help you in identifying potential disorders and deficiencies at an early stage.</p>
+                        <p style="color: #20857F; font-size: 14px; padding-left: 20px;">Pay later on home sample collection</p>
+                        <hr size="10px" class="mt-4">
+                        <hr size="3px" class="mt">
+
+                        <h4>Bill summary</h4>
+                        <div class="row">
+                            <div class="col-6">
+                                <p>Green packaging charge</p>
+                                <p style="color: #20857F;">Total discount
+
+                                </p>
+                                <p style="color: #20857F;">Shipping fee
+
+                                </p>
+                            </div>
+                            <div class="col-6 ">
+                                <p class="d-flex justify-content-end">₹4</p>
+
+                                <p style="color: #20857F;" class="d-flex justify-content-end">19% Off</p>
+                                <p style="color: #20857F;" class="d-flex justify-content-end">As per delivery address</p>
+                            </div>
+                        </div>
+                        <hr size="3px">
+                          <div class="row">
+                            <div class="col-6 " style="font-size: 20px; font-weight: bold;">To be paid(₹)</div>
+                            <div class="col-6 d-flex justify-content-end">
+
+                                <div class="bill" style="font-size: 20px;">
+                                    
+                                </div>
+
+                            </div>
+                          </div>
+
+                        <hr size="10px" class="mt-4">
+
+
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                            <div class="col-4">
+                                <h5 style="font-size: 18px; font-weight: bold;">Delivering to</h5>
+                                <h6 style="font-size: 15px; color: #7A787A;">Botad</h6>
+                            </div>
+                            <div class="col-4"></div>
+                            <div class="col-3 d-flex justify-content-center align-items-center " style="font-weight: bold;">
+                                <p class="" style="color: #FF6F61;">
+
+                                    Add Address</p>
+                            </div>
+                        </div>
+
+                        <hr size="10px" class="mt-4">
+
+                        <button id="btn4" style="height: 35px; width: 100%; background-color: #FF6F61; margin-top: 15px;" ><a href="home.html" style="text-decoration: none; color: rgb(255, 255, 255); background-color: #FF6F61;">Continue</a></button>
+                        
+                    
+
+                </div>
+            </div>
     
     
             </div>

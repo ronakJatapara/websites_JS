@@ -1165,62 +1165,6 @@
       "off2": "of 50 Test Strips",
       "id": "24"
     }
-  ],  
-  "cart": [
-    {
-      "id": "2",
-      "image": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/a614278628b746d79dc7d606bb2900c1.jpg",
-      "name": "Accu-Chek Active Blood Glucometer Kit (Box of 10 Test strips Free) | Blood Glucose Monitors",
-      "extra": "Roche Diabetes Care India Pvt Ltd",
-      "rate": "558 ratings",
-      "mrp": "1681",
-      "off": "18% off",
-      "price": "983",
-      "quantity": 7
-    },
-    {
-      "id": "6",
-      "image": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/c9229705caa14762ae24028a8df851eb.jpg",
-      "name": "Pintola All Natural Peanut Butter Extra Crunchy Unsweetened",
-      "extra": "Jar of 350 gm butter",
-      "rate": "1490 ratings",
-      "mrp": "335",
-      "off": "6% OFF",
-      "price": "175",
-      "quantity": 3
-    },
-    {
-      "id": "5",
-      "image": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/f8f583935c5b46df9e3c8b111bb755cf.jpg",
-      "name": "Protinex Diabetes Care - with Protein and High Fiber for Blood Sugar Control (500gm Each) Creamy Vanilla",
-      "extra": "Combo of 2 packs",
-      "rate": "1490 ratings",
-      "mrp": "1770",
-      "off": "25% OFF",
-      "price": "1343",
-      "quantity": 4
-    },
-    {
-      "id": "1",
-      "image": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/6f2f500445be42849dcbd576e83f7046.jpg",
-      "name": "Protinex Diabetes Care Protein Powder with Vitamins",
-      "extra": "box of 400 gm powder",
-      "rate": "558 ratings",
-      "mrp": "760",
-      "off": "19% off",
-      "price": "646",
-      "quantity": 3
-    },
-    {
-      "id": "19",
-      "image": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/hx2gxivwmeoxxxsc1hix.png",
-      "name": "Himalaya Diabecon DS Tablet | Manages Blood Sugar Level",
-      "extra": "Bottles of 60 Tables",
-      "rate": "1052 ratings",
-      "mrp": "250",
-      "off": "9% OFF",
-      "price": "228",
-      "quantity": 3
-    }
-  ]
+  ],
+  "cart": []
 }

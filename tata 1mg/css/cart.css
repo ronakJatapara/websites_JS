@@ -63,3 +63,34 @@
 #cartRemove:hover{
     cursor: pointer;
 }
+.line{
+    width: 1px;
+    border: 1px solid gray;
+    height:1000px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+.coreplan{
+    height: 30px;
+    width: 100px;
+    background-color: #903F38;
+}
+#btn3{
+    width: 40%;
+    height: 35px;
+    border: none;
+    border-color: #FF6F61;
+    color:#FF6F61 ;
+    background-color: #FFDCD9;
+    border-radius: 5px;
+}
+#btn4{
+    width: 40%;
+    height: 35px;
+    border: none;
+    border-color: #FF6F61;
+    color:#ffffff ;
+    background-color: #fa4f40;
+    border-radius: 5px;
+}
