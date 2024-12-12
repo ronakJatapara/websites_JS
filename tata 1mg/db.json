@@ -1166,5 +1166,28 @@
       "id": "24"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "2",
+      "image": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/a614278628b746d79dc7d606bb2900c1.jpg",
+      "name": "Accu-Chek Active Blood Glucometer Kit (Box of 10 Test strips Free) | Blood Glucose Monitors",
+      "extra": "Roche Diabetes Care India Pvt Ltd",
+      "rate": "558 ratings",
+      "mrp": "1681",
+      "off": "18% off",
+      "price": "983",
+      "quantity": 1
+    },
+    {
+      "id": "10",
+      "image": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/81e831da9351456a81ca24421b73dfa9.jpg",
+      "name": "Accu-Chek Instant Test Strip ( Only Strip)",
+      "extra": "Box of 50 Test Stript",
+      "rate": "3153 ratings",
+      "mrp": "1190",
+      "off": "14% OFF",
+      "price": "1023",
+      "quantity": 1
+    }
+  ]
 }

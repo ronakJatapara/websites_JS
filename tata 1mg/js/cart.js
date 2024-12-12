@@ -13,6 +13,10 @@ function fetchingData()
         {
             window.location.href="care.html"
         }
+
+        document.querySelector("#btn4").addEventListener("click",()=>{
+          container.innerHTML = " "
+        })
         
     })
     .catch((err)=>{
